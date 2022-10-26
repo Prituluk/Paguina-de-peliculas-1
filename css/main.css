@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+   
+}
+body {
+    /* background-color: #16213e;
+    background-image: linear-gradient(132deg, #16213e 0%, #e94560 100%); */
+    background-color: #0f3460;
+    background-image: linear-gradient(0deg, #0f3460 0%, #16213e 100%);
+
+
+}
+
+.containerTop {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to left, transparent, #16213e), url("https://images.vix.com/prd/hero-landscape/632a16f5561fa7464b5eabf0/1678b18f4f1de71908da50a9ece4e239?tr=w-1920,h-1080,q-30");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    /* position: fixed ; */
+    width: 100%;
+    height: 100px;
+    display: inline-flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    background-image: linear-gradient(0deg, transparent 0%, #16213e 100%);
+    
+}
+
+.navbar a {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;;
+    z-index: 1;
+}
+
+.topList ul li{
+    display: inline;
+    font-size: 3rem;
+    
+}
+.topList ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    z-index: 2;
+}
+
+.usuarioSection {
+   width: 200px;
+   height: 50px;
+   display: inline-flex; 
+   align-items: center;
+   justify-content: center;
+}
+.usuarioSection ul li {
+    display: inline;
+}
+
+.usuarioSection ul li a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.textFilm {
+    width: 500px;
+    height: auto;
+    margin-top: -100px;;
+    z-index: 3;
+}
+
+.textFilm img {
+    margin-top: -10%;
+    margin-left: 90px;;
+}
+
+.butonPlay {
+    width: 170px;
+    height: 50px;
+    background-color: rgb(255 89 0);
+    border-radius: 5px;
+    display: inline-flex;
+    margin-left: 120px;
+    margin-top: 20px; 
+}
+.butonPlay span {
+    background-image: url("../css/assets/icons/play.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin: auto 0px;
+    margin-left: 20px;
+}
+.butonPlay a {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: auto 4px;
+    text-decoration: none;
+    color: black;
+}
+.info {
+    display: inline-flex;
+    margin-left: 20px;
+    width: 160px;
+    height: 40px;
+}
+.info a {
+    font-size: 2rem;
+    text-decoration: none;
+    color:black;
+}
+
+.cards {
+    width: 100%;
+    height: 250px;
+    /* background-color: white; */
+    margin-top: 100px;
+}
+.cards:nth-child(2) {
+    margin-top: -40px;
+}
+.cards p {
+    font-size: 3rem;
+    /* font-weight: 600; */
+    color: white;
+    margin-left: 40px;
+    padding-bottom: 10px;;
+}
+.cardsMovies {
+    display: grid;
+    grid-template-columns: repeat(10, 200px);
+    grid-gap: 10px;
+    grid-template-rows: 280px;
+    overflow: auto;
+}
+
+.cardsMovies .movie a img {
+    border-radius: 10px;
+    width: 100%;
+    height: 99%;
+}
+
+.bot {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 15px;;
+}
+.bot ul li {
+    display: inline;
+    text-align: center;
+}
+.bot ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
